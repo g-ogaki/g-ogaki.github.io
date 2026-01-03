@@ -1,1 +1,49 @@
+---
+---
+
 @import "{{ site.theme }}";
+
+// ================================
+// VARIABLES
+// ================================
+$primary-color: #2c3e50;
+$accent-color: #3498db;
+$text-color: #444;
+$light-gray: #f8f9fa;
+$border-color: #e1e4e8;
+$transition-speed: 0.25s;
+
+// ================================
+// GENERAL
+// ================================
+body {
+    color: $text-color;
+    line-height: 1.8;
+}
+
+a {
+    color: $accent-color;
+    text-decoration: none;
+    transition: color $transition-speed ease;
+
+    &:hover {
+        color: darken($accent-color, 15%);
+    }
+}
+
+// ================================
+// SECTION HEADINGS (h2)
+// ================================
+h2 {
+    color: $primary-color;
+    font-size: 1.4em;
+    font-weight: 600;
+    margin-top: 2em;
+    margin-bottom: 0.8em;
+    padding-bottom: 0.4em;
+    border-bottom: 1px solid $accent-color;
+
+    &:first-of-type {
+        margin-top: 0;
+    }
+}
