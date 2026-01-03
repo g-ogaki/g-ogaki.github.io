@@ -1,0 +1,22 @@
+services:
+  app:
+    image: ruby:3.1-bullseye
+
+    environment:
+      - JEKYLL_GITHUB_TOKEN=${JEKYLL_GITHUB_TOKEN}
+
+    command: >
+      bash -c "
+        git config --global --add safe.directory /srv/jekyll &&
+        bundle install &&
+        jekyll serve --force_polling --host 0.0.0.0 --livereload --incremental
+      "
+
+    volumes:
+      - .:/srv/jekyll
+
+    working_dir: /srv/jekyll
+
+    ports:
+      - 4000:4000
+      - 35729:35729
