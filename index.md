@@ -5,7 +5,7 @@ layout: default
 ## Applications
 
 * [Competitive Programming Python Library](https://g-ogaki.github.io/competitive-programming-python-library/){:target="_blank"}
-* [Time Difference Calculator](https://g-ogaki.github.io/time-difference-calculator/){:target="_blank"}
+* [Time Difference Calculator](https://time-difference-calculator.monipy.workers.dev/){:target="_blank"}
 * [IELTS Speaking Mock Test](https://g-ogaki.github.io/IELTS-speaking/){:target="_blank"}
 
 ## Experience
