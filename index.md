@@ -4,7 +4,7 @@ layout: default
 
 ## Applications
 
-* [RAG Agent on assistant-ui & Python LangGraph](https://assistant-ui-langgraph.monipy.workers.dev/){:target="_blank"}
+* [RAG Agent with assistant-ui + Python LangGraph](https://assistant-ui-langgraph.monipy.workers.dev/){:target="_blank"}
 * [Competitive Programming Python Library](https://g-ogaki.github.io/competitive-programming-python-library/){:target="_blank"}
 * [Time Difference Calculator](https://time-difference-calculator.monipy.workers.dev/){:target="_blank"}
 * [IELTS Speaking Mock Test](https://g-ogaki.github.io/IELTS-speaking/){:target="_blank"}
