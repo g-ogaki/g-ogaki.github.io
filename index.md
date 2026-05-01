@@ -11,7 +11,8 @@ layout: default
 
 ## Experience
 
-* 2025-: AI Engineer at Givery, Inc.
+* 2026-: NEET fleeing from Work-related Responsibilities
+* 2025-2026: AI Engineer at Givery, Inc.
 * 2024-2025: Cloud Support Engineer at EPAM Systems, Inc.
 * 2023-2024: NEET obsessed with English Studies
 * 2020-2023: Data Scientist at Recruit Co., Ltd.
